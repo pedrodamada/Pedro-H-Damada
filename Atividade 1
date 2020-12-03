@@ -1,0 +1,10 @@
+var codigo = 3
+var quantLitro = 30 
+
+if (codigo == 1) {
+    document.write('A quantidade em Litros é de ' + quantLitro + ' e o preço a ser pago é ' + Math.round(quantLitro*3.16))
+ } else if (codigo == 2) {
+    document.write('A quantidade em Litros é de ' + quantLitro + ' e o preço a ser pago é ' + Math.round(quantLitro*4.19))
+} else {
+    console.log('Por favor, escolha entre os códigos 1 e 2')
+}
